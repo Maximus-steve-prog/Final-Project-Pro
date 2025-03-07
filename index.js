@@ -30,7 +30,7 @@ let show_content = document.querySelector('.app-content__body-inner')
           });
         });
 
-        let my_Pic = '/profile.jpg'
+        let my_Pic = 'profile.jpg'
         let timerInterval;
         Swal.fire({
         title: `<img src=${my_Pic} style='border-radius: 50%; border:2px solid green;'><br>Hello !!! I hope you're fine`,
