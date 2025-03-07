@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"  />
+    <title>Final Project</title>
+</head>
+<body>
+    
+    <main class="app-main">
+        <div class="app-sidebar sidebar-shadow">
+            <aside class="sidebar">
+                <div class="logo">
+                    <div class="toggle-menu"> <i class="fa fa-times"></i> </div>
+                    <img src="/pkfImg.png" alt="logo" class="my-profile">
+                    <div class="toggle">
+                        <i class="ri-arrow-left-double-fill"></i>
+                    </div>
+                </div>
+                <div class="sidebar-menu">
+                    <div class="side-top">
+                   
+                        <ul class="app-sidebar__inner">
+                            <li class="app-sidebar__heading">Menu 1</li>
+                            <li class="project" data-url="show-chronometer" title="" toolTip="Chronometer" id="Chronometer">
+                                <i class="fa-solid fa-clock"></i> <span class="sidebar-text">Project 1</span>
+                            </li>
+                            <li class="project" data-url="show-to-do-list" title="" toolTip="To do List" id="To-do-List">
+                                <i class="fa-solid fa-table-list"></i> <span class="sidebar-text">Project 2</span>
+                            </li>
+                            <li class="project" data-url="show-jumping-game" title="" toolTip="Jumping Game" id="Jumping-Game">
+                                <i class="fa-solid fa-person-running"></i> <span class="sidebar-text">Project 3</span>
+                            </li>
+                            <li class="project" data-url="show-stond-paper-cliper" title="Stond Paper Cliper" toolTip="Stong Paper Cliper" id="Stong-Paper-Cliper">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i> <span class="sidebar-text">Project 4</span>
+                            </li>
+                            <li class="project" data-url="show-password-verification" title="Password Verification" toolTip="Password Verification" id="Password-Verification">
+                                <i class="fa-solid fa-check-double"></i><span class="sidebar-text">Project 5</span>
+                            </li>
+                            <li class="app-sidebar__heading">Menu 2</li>
+                            <li class="project" data-url="show-calcul-game" title="Calcul Game" toolTip="Calcul Game" id="Calcul-Game">
+                                <i class="fa-solid fa-gamepad"></i><span class="sidebar-text">Project 6</span>
+                            </li>
+                            <li class="project" data-url="show-code-bar-generator" title="Code Bar Generator" toolTip="Code Bar Generator" id="Code-Bar-Generator">
+                                <i class="fa-solid fa-barcode"></i> <span class="sidebar-text">Project 7</span>
+                            </li>
+                            <li class="project" data-url="show-password-generator" title="Password Generator" toolTip="Password Generator" id="Password-Generator">
+                                <i class="fa-solid fa-key"></i> <span class="sidebar-text">Project 8</span>
+                            </li>
+                            <li class="project" data-url="show-link-shortcut" title="Link shortcut" toolTip="Link shortcut" id="Link-shortcut">
+                                <i class="fa-solid fa-link"></i> <span class="sidebar-text">Project 9</span>
+                            </li>
+                            <li class="project" data-url="show-onglet-creator" title="Onglet creator" toolTip="Onglet creator" id="Onglet-creator">
+                                <i class="fa-solid fa-clapperboard"></i> <span class="sidebar-text">Project 10</span>
+                            </li>
+                            <li class="project" data-url="show-calculator" title="Calculator" toolTip="Calculator" id="Calculator">
+                                <i class="fa-solid fa-calculator"></i> <span class="sidebar-text">Project 11</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="side-bottom">
+                        <div class="dark-mode">
+                            <i class="fa fa-moon icon-dark-light" id="icon-dark"></i>
+                            <i class="fa fa-sun icon-dark-light active" id="icon-light"></i>
+                        </div>
+                        <div class="side-profile">
+                            <img src="/profile.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+        </div>
+        <div class="app-content">
+            <div class="app-header bottom-shadow ">
+                <div class="header-left ">
+                    <div class="toggle-menu">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <div class="header-dock">
+                        <span>Final Project | </span>
+                        <span class="dock"> Profile </span>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <span class="username">
+                        <p>Steve NGOYA</p>
+                        <p>Admin</p>
+                    </span>
+                     <div class="header-profile">
+                        <img src="/profile.jpg" alt="" class="my-profile">
+                     </div>
+                </div>
+            </div>
+            <div class="app-content__inner">
+              
+                <div class="app-content__body">
+                    <div class="app-content__heading">
+                        <h1 class="app-content__heading-title">Profile</h1>
+                      </div>
+                    <div class="app-content__body-inner">
+                        <!-- My Info -->
+                        <div class="show-project my-info">
+                            <div class="my-cards">
+                                
+                                <div class="personal-info">
+                                        <img src="/profile.jpg" alt="">
+                                        <h2>Steve Maximilien Boanergues</h2>
+                                        <h1>NGOYA DENADOSSOA</h1>
+                                        <div class="social">
+                                            <a href="https://www.facebook.com/74355406"><i class="fa-brands fa-facebook"></i></a>
+                                            <a href="https://wa.me/+23674355406"><i class="fa-brands fa-whatsapp"></i></a>
+                                            <a href="https://t.me/+237688086860"><i class="fa-brands fa-telegram"></i></a>
+                                            <a href="https://github.com/Maximus-steve-prog"><i class="fa-brands fa-github"></i></a>
+                                        </div>
+                                </div>
+
+                                <div class="edited-info">
+                                   <h2 >Details Inforamtions</h2>
+                                    <div class="input-fields">
+                                       <i class="fa fa-user"></i> <input type="text" placeholder="Full name" name="" id="" value="Steve Maximilien Boanergues NGOYA DENADOSSOA"><button><i class="fas fa-pencil"></i></button>
+                                    </div>
+                                    <div class="input-fields">
+                                        <i class="fa fa-user"></i>  <input type="text" placeholder="Username " name="" id="" value="Steve NGOYA"><button><i class="fas fa-pencil"></i></button>
+                                    </div>
+                                    <div class="input-fields">
+                                        <i class="fa fa-envelope"></i>  <input type="text" placeholder="Email" name="" id="" value="maximusdevcode@gmail.com"><button><i class="fas fa-pencil"></i></button>
+                                    </div>
+                                    <div class="input-fields">
+                                        <i class="fa-solid fa-map-location"></i> <input type="text" placeholder="Address" name="" id="" value="Yaounde (Olembe) "><button><i class="fas fa-pencil"></i></button>
+                                    </div>
+                                    <div class="input-fields">
+                                        <i class="fa-solid fa-phone"></i> <input type="text" placeholder="Phone" name="" id="" value="+237 688 086 860"><button><i class="fas fa-pencil"></i></button>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Chronometer -->
+                        <div class="show-project chronometer">
+                            <div class="chrono">
+                              <div class="chrono__display">
+                                <div class="chrono__display__inner">
+                                  <div class="chrono__display__inner__value">00:00:00:000</div>
+                                </div>
+                              </div>
+                              <div class="chrono__controls">
+                                <div class="chrono__controls__inner">
+                                  <button class="chrono__controls__inner__button chrono__controls__inner__button--start">Start</button>
+                                  <button class="chrono__controls__inner__button chrono__controls__inner__button--stop">Stop</button>
+                                  <button class="chrono__controls__inner__button chrono__controls__inner__button--reset">Reset</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        <!-- To do List -->
+                        <div class="show-project todo-list">
+                            <h1>To-Do List</h1>
+                            <input type="text" id="todo-input" placeholder="Add new task">
+                            <button id="add-todo-btn" class="btn">Add</button>
+                            <ul id="todo-list-ul">
+                            <!-- tasks will be rendered here -->
+                            </ul>
+                        </div>
+
+                         <!-- Jumping Game -->
+                        <div class="show-project Jumping-game">
+                                <div class="jeu">
+                                    <div class="perso">
+                                        <img src="images-removebg-preview(2).png" alt="">
+                                    </div>
+                                    <div class="obstacles"></div>
+                                </div>
+                                <div class="controls">
+                                    <button class="chrono__controls__inner__button" id="Jump">SAUTER</button>
+                                    <button class="chrono__controls__inner__button" id="startGame">START</button>
+                                </div>
+                        </div>
+
+                        <!-- Stond-Paper-Cliper Game -->
+                        <div class="show-project stond-paper-cliper">
+                            <div class="choix">
+                                <h4>vous <span id="choix-utilisateur"></span></h4>
+                                <h4>ordinateur <span id="choix-ordinateur"></span></h4>
+                            </div>
+                            <h4><span id="resultat"></span></h4>
+                            <div class="controls">
+                                <button class="btn spc" id="pierre">pierre</button>
+                                <button class="btn spc" id="papier">papier</button>
+                                <button class="btn spc" id="ciseaux">ciseaux</button>
+                            </div>
+                        </div>
+
+                        <!-- Password Verification -->
+                        <div class="show-project password-verification">
+                                <div class="container">
+                                    <form action="">
+                                        <label>Utilisateur</label>
+                                        <input type="text" required placeholder="Username">
+                                        <label>mots de passe</label>
+                                        <input type="password" id="psw" required placeholder="Password">
+                                        <input type="submit" class="btn" value="Envoyer">
+                                    </form>
+                                </div>
+                                <div id="message">
+                                    <h3>le mot de passe doit contenir les elements suivants</h3>
+                                    <p id="letter" class="invalid">une lettre en minuscule</p>
+                                    <p id="capital" class="invalid">une lettre en majuscule</p>
+                                    <p id="number" class="invalid">un chiffre</p>
+                                    <p id="length" class="invalid">8 caracteres minimum</p>
+                                </div>
+                        </div>
+
+                         <!-- Calculate  -->
+                        <div class="show-project calculate">
+                            <p class="message"></p>
+                                <section>
+                                    <div class="calcul">
+                                        <h1 class="nb1"></h1>
+                                        <h1 class="op">+</h1>
+                                        <h1 class="nb2"></h1>
+                                    </div>
+                                    <h2>Give your Response</h2>
+                                    <input type="number" class="res" placeholder="Type the result">
+                                    <input type="submit" onclick="verifier()">
+                                </section>
+                                <p class="score"></p>
+                                <div class="recommencer">Recommencer</div>
+                        </div>
+                         <!-- Code Bar Generator -->
+                        <div class="show-project code-bar">
+                            <h4>Générateur de code-barres</h4>
+                            <div class="search_bar">
+                                <input type="text" placeholder="Entrer un texte..." id="text">
+                                <button  id="button_code_bar">Générer</button>
+                            </div>
+                            <div id="box">
+                                <img src="bars-code.png" alt="code bar">
+                            </div>
+                            <div id="pdf_box"></div>
+                        </div>
+
+                        <!-- Password Generator -->
+                        <div class="show-project password-generator">
+                                <section class="inputBox">
+                                    <h3>Password Generator</h3>
+                                    <div class="passwordBox">
+                                        <input type="text" id="password" readonly placeholder="click generate button">
+                                    </div>
+                                    <div class="controls">
+                                        <button class="btn spc" onclick="getPassword()">générer</button>
+                                        <button class="btn spc" id="copy" onclick="copyMdp()">copier</button>
+                                    </div>
+                                </section>
+                        </div>
+
+                        <!-- Link Creator -->
+                        <div class="show-project link-shortcut">
+                            <h3>Link Creator</h3>
+                            <header>
+                                <h3>Shortcut's link application</h3>
+                                <p>Put a valid link, Otherwise it will not function!</p>
+                            </header>
+                            <section>
+                                <div class="main">
+                                    <p class="error_message"></p>
+                                    <input type="text" placeholder="Lien à raccourcir" class="long_link">
+                                    <button class="btn" onclick="shortLinkFunct()">raccourcir le lien</button>
+                                    <div class="result"></div>
+                                </div>
+                            </section>
+                        </div>
+
+                        <!-- Onglets Creator -->
+                        <div class="show-project onglets-creator">
+                            <h3>Onglets Creator</h3>
+                            <div class="tab">
+
+                                <button onclick="openOnglet(event, 'Home')" id="tablinks">Home</button>
+                                <button onclick="openOnglet(event, 'Contact')" class="tablinks">Contact</button>
+                                <button onclick="openOnglet(event, 'Reservation')" class="tablinks">booking</button>
+                                <button onclick="openOnglet(event, 'Boutique')" class="tablinks">store</button>
+                            </div>
+                            <div class="tabcontent" id="Home">
+                                <h3>Home</h3>
+                                <p>Welcome on my home page</p>
+                                <div class="picture">
+                                    <img src="img1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="tabcontent" id="Contact">
+                                <h3>Contact</h3>
+                                <p>Welcome on my Contact page </p>
+                                <div class="picture">
+                                    <img src="img2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="tabcontent" id="Reservation">
+                                <h3>Reservation</h3>
+                                <p>Welcome on my Reservation page</p>
+                                <div class="picture">
+                                    <img src="img3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="tabcontent" id="Boutique">
+                                <h3>Boutique</h3>
+                                <p>Welcome on my Boutique page</p>
+                                <div class="picture">
+                                    <img src="img4.jpg" alt="">
+                                </div>
+                            </div>
+                        
+                        </div>
+
+                        <!-- Calculator -->
+                        <div class="show-project calculator">
+                            <h3>Calculator</h3>
+                            <div class="container">
+                                <div class="display">
+                                    <input type="text" class="calculator-screen" value="" disabled />
+                                </div>
+            
+                                <div class="calculator-keys">
+                                        <button type="button" class="all-clear" value="all-clear">AC</button>
+                                        <button type="button" class="operator" value="!"> ! </button>
+                                        <button type="button" class="operator" value="v"><i class="fa-solid fa-square-root-variable"></i></button>
+                                        <button value="sup" class="delete"> <i class="fa-solid fa-delete-left"></i></button>
+                                        
+                                        <button type="button" value="7">7</button>
+                                        
+                                        <button type="button" value="8">8</button>
+                                        <button type="button" value="9">9</button>
+                                        <button type="button" class="operator" value="/">&divide;</button>
+                                        <button type="button" value="4">4</button>
+                                        <button type="button" value="5">5</button>
+                                        <button type="button" value="6">6</button>
+                                        <button type="button" class="operator" value="*">&times;</button>
+                                        <button type="button" value="1">1</button>
+                                        <button type="button" value="2">2</button>
+                                        <button type="button" value="3">3</button>
+                                        <button type="button" class="operator" value="+">+</button>
+                                        <button type="button" value="." class="decimal">.</button>
+                                        <button type="button" value="0">0</button>
+                                        <button type="button" class="equal-sign operator" value="=">=</button>                    
+                                        <button type="button" class="operator" value="-">-</button>   
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div> 
+
+            </div>
+            <footer>
+                <p>&copy; 2025 Steve Maximilien Boanergues NGOYA DENADOSSOA</p>
+            </footer>
+        </div>
+        <div class="social-frame">
+            <div class="close-social">
+                <i class="fa fa-times"></i>
+            </div>
+            <iframe src="" frameborder="0"></iframe>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.17.2/dist/sweetalert2.all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
