@@ -73,12 +73,12 @@ toggle.addEventListener('click', () => {
     if (toggled) {
         toggle.style.transform = 'rotate(180deg)';
         sidebar.classList.toggle('collapsed');
-        document.querySelector('.logo img').src = '/pkf2.jpg';
+        document.querySelector('.logo img').src = 'pkf2.jpg';
         sizeAppSidebar = 80;
     } else {
         toggle.style.transform = 'rotate(0deg)';
         sidebar.classList.remove('collapsed');
-        document.querySelector('.logo img').src = '/pkfImg.png';
+        document.querySelector('.logo img').src = 'pkfImg.png';
         sizeAppSidebar = 230;
     }
 })
